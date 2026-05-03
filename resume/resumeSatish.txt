@@ -1,0 +1,121 @@
+                     Satish Narayan
+                    7216,  Morsey Ct
+                   Charlotte, NC 28269
+                 Hm Phone: (704)921-3302
+                 satishnryn@netscape.net
+
+Information Technology / Software Engineering Professional
+
+Objective  To secure a responsible position employing my proven skills in
+           Information Technology, Software Engineering, team leadership
+           and also applying my Masters degree in Computer Science.
+
+Education
+
+University of North Carolina, Charlotte, NC
+MS, Computer Science, May 2001 (3.9 GPA)
+
+University of Bangalore, India
+BE, Electronics Engineering, 1991
+
+Technical Skills
+
+Operating Systems : AIX, Linux, Solaris, MS Windows, OS/400, MVS
+Languages         : C, C++, Java, Perl.
+Databases         : DB2, Oracle, MS Access.
+Other Technologies: EJB, JSP, J2EE, OOA/OOD, UML, HTML, XML, TCP/IP,
+                    Rational Rose, JBuilder, JavaScript, Visual C++,
+                    WebSphere, Visual Basic, Unix shell scripting,
+                    PowerBuilder, OpenGL, CICS.
+
+Work Experience
+
+   - 10 years
+
+Jan 00 - Present:  WebTone technologies (previously SAIC), Charlotte, NC.
+
+   - Design and Development of front end using Java Swing for a banking
+     CRM/Teller application. Some middle tier development.
+
+   - Application profiling to identify memory leaks and threading issues.
+     Performance tuning.
+
+   - Make recommendations for improvements in existing
+     frameworks and architecture using UML.
+
+   - Prototyping the application in J2EE technologies.
+
+   - Network programming.
+
+   - Developed and implemented a light weight XML parser.
+
+   - Designed and developing an application builder/designer tool.
+
+Oct 96 - Dec 99: IBM, Charlotte, NC
+
+   - Worked on projects at IBM for IBM's clients such as
+     GoodYear, Wachovia, Nations Bank(now BofA), Amtrak,
+     Barrons, Pepsi, Anheuser-Busch, etc.
+
+   - Had the opportunity to work on multiple platforms.
+
+   - Technical team lead for team size of up to six.
+
+   - Responsible for client communications.
+
+   - Helped set up servers, networks and clusters. Configured
+     NIS & NFS and did some server administration on AIX.
+
+Apr 96 - Sep 96: Delloite & Touche LLP, Los Angeles, CA.
+
+   - It was a project for the Los Angeles County to automate
+     the welfare system
+
+   - Was involved in the design of the system. Designed GUIs
+     and wrote logic for business processes.
+
+   - Involved in JAD sessions with end users.
+
+Jan 96 - Apr 96: Arthur Andersen Consulting, Sacramento, CA.
+
+   - Worked at the Franchise Tax Board, Sacramento, which was
+     Andersen's client. It was an application in a larger
+     tax system.
+
+   - Worked independently from technical design to implementation
+     of a sub-system.
+
+Apr 93 - Dec 96: Pentafour Software & Exports, Madras, India.
+
+   - Various in-house projects.
+
+   - Taught and trained groups on various subjects.
+
+Jun 91 - Mar 93: Zephyr Computers, Bangalore, India
+		
+   - Hardware and software setup of Novell Netware networks.
+
+   - Installation and maintenance of PCs, networks, printers and
+     other computer hardware.
+
+   - Repair motherboards, drives, monitors, etc.
+
+Additional Information
+
+   - US permanent resident (Green card).
+
+   - I learn and adapt to new technologies rapidly.
+
+   - Employee of the quarter at Ciber for first quarter 2000.
+
+   - Will travel.
+
+   - SUN certified Java programmer.
+
+   - Great team player!!!
+
+   - http://home.carolina.rr.com/satishnarayan/
+
+References 
+
+   - Available on request.

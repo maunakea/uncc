@@ -1,0 +1,89 @@
+			AMRITA KUMARI
+		7216, Morsey Ct• Charlotte, NC 28269
+		Phone (704) 921-3302 • E-mail amritak@gmail.com
+
+Objective
+
+	To secure a responsible position employing my proven skills in
+	Information Technology, Software Engineering, and also applying
+        my Masters degree in Computer Science.
+
+Education
+
+    	University of North Carolina, Charlotte, NC
+	MS, Computer Science, May  1999
+
+	Bihar Institute of Technology, India
+	BE, Mechanical Engineering, 1991
+
+Technical skills
+
+    	Operating Systems : AIX, Linux, Solaris, MS Windows, MVS.
+    	Languages         : C, C++, Java, Perl.
+	Databases         : Informix, DB2, Oracle, MS Access.
+	Other Technologies: Swing, TIBCO, VisualCafe, VSS, PVCS, J2EE,
+			    OOA/OOD, UML, HTML, XML, TCP/IP, JBuilder,
+			    Cold Fusion.
+
+Work experience
+
+
+Aug 1999 – Feb 2002  Blackbird Inc., Charlotte, NC
+
+- Design and Development of front end using Java Swing for a trading
+  application.
+
+- Application profiling to identify memory leaks and threading issues.
+
+- Performance tuning.
+
+- Development of middleware using TIBCO messaging software  in Java 
+  language.
+
+
+Jan 98 – May 00, UNC, Charlotte, NC
+
+- Studied for the master's program in comp. Sc at UNC, Charlotte.
+
+- Was a research assistant for network communication.
+
+
+Oct 96 - Dec 97 IBM, Charlotte, NC
+
+- Worked on projects at IBM for IBM's clients such as GoodYear, Wachovia,
+  Nations Bank(now BofA).
+
+- Had the opportunity to work on multiple platforms.
+
+
+Apr 96 - Sep 96 Delloite & Touche LLP, Los Angeles, CA
+
+- It was a project for the Los Angeles County to automate the welfare
+  system.
+
+- Was involved in the design of the system. Designed GUIs and wrote logic
+  for business processes.
+
+- Involved in JAD sessions with end users.
+
+
+Apr 93 - Mar 96 Pentafour Software & Exports, Madras, India
+
+- Various in-house projects.
+
+
+Additional information
+
+- US permanent resident (Green card).
+
+- SUN certified Java Programmer (Dec 2005).
+
+- SUN certified Web Component Developer (Jan 2006).
+
+
+REFERENCES
+
+Available on request.
+
+
+
