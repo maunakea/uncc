@@ -1,88 +1,81 @@
 
-imgProjects = new Image();
+var imgProjects = new Image();
 imgProjects.src = "images/projects.gif";
-imgProjects_g = new Image();
+var imgProjects_g = new Image();
 imgProjects_g.src = "images/projects_g.gif";
-imgCourses = new Image();
+var imgCourses = new Image();
 imgCourses.src = "images/courses.gif";
-imgCourses_g = new Image();
+var imgCourses_g = new Image();
 imgCourses_g.src = "images/courses_g.gif";
-imgResume = new Image();
+var imgResume = new Image();
 imgResume.src = "images/resume.gif";
-imgResume_g = new Image();
+var imgResume_g = new Image();
 imgResume_g.src = "images/resume_g.gif";
-imgPhotos = new Image();
+var imgPhotos = new Image();
 imgPhotos.src = "images/photos.gif";
-imgPhotos_g = new Image();
+var imgPhotos_g = new Image();
 imgPhotos_g.src = "images/photos_g.gif";
-imgDoneThat = new Image();
+var imgDoneThat = new Image();
 imgDoneThat.src = "images/donethat.gif";
-imgDoneThat_g = new Image();
+var imgDoneThat_g = new Image();
 imgDoneThat_g.src = "images/donethat_g.gif";
+
+function loadContent(url) {
+	var frame = document.getElementById('content');
+	if (frame) frame.src = url;
+}
 
 function reDisplay(selection, subSelection) {
 
-	toc.document.open();
-	toc.document.write("<html>\n<head>\n<title>ToC</title>\n</head>\n<body bgcolor=\"#D6CEBD\">\n");
+	var html = '<center>\n';
 
-	toc.document.writeln('<center>');
-
-	toc.document.writeln('<A HREF="#" onClick="parent.reDisplay(\'courses\')" ><img name="imgC" src="images/courses.gif" onMouseOver="document.imgC.src=parent.imgCourses_g.src" onMouseOut="document.imgC.src=parent.imgCourses.src"  align=center border=0></A></br>');
+	html += '<a href="#" onclick="reDisplay(\'courses\'); return false;"><img src="images/courses.gif" onmouseover="this.src=imgCourses_g.src" onmouseout="this.src=imgCourses.src" align="center" border="0"></a><br>\n';
 	if (selection == "courses") {
-	    toc.document.writeln('</br>');
-		toc.document.writeln('<A HREF="csci6166/csci6166.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp; csci6166</A></br>');
-		toc.document.writeln('<A HREF="csci6162/csci6162.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp; csci6162</A></br>');
-		toc.document.writeln('<A HREF="csci6160/csci6160.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp; csci6160</A></br>');
-		toc.document.writeln('<A HREF="csci6148/csci6148.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp; csci6148</A></br>');
-		toc.document.writeln('<A HREF="csci6144/csci6144.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci6144</A></br>');
-		toc.document.writeln('<A HREF="csci6114/csci6114.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci6114</A></br>');
-		toc.document.writeln('<A HREF="csci5141/csci5141.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci5141</A></br>');
-		toc.document.writeln('<A HREF="csci5130/csci5130.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci5130</A></br>');
-		toc.document.writeln('<A HREF="csci5112/csci5112.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci5112</A></br>');
-		toc.document.writeln('<A HREF="csci5102/csci5102.html" target="content" style="text-decoration:none"><img src="images/bookshut_brown.gif" border=0>&nbsp csci5102</A></br>');
-		toc.document.writeln("</br>");
-
-		parent.content.location.href="courses_summary.html"
+		html += '<br>\n';
+		html += '<a href="csci6166/csci6166.html" onclick="loadContent(\'csci6166/csci6166.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6166</a><br>\n';
+		html += '<a href="csci6162/csci6162.html" onclick="loadContent(\'csci6162/csci6162.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6162</a><br>\n';
+		html += '<a href="csci6160/csci6160.html" onclick="loadContent(\'csci6160/csci6160.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6160</a><br>\n';
+		html += '<a href="csci6148/csci6148.html" onclick="loadContent(\'csci6148/csci6148.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6148</a><br>\n';
+		html += '<a href="csci6144/csci6144.html" onclick="loadContent(\'csci6144/csci6144.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6144</a><br>\n';
+		html += '<a href="csci6114/csci6114.html" onclick="loadContent(\'csci6114/csci6114.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci6114</a><br>\n';
+		html += '<a href="csci5141/csci5141.html" onclick="loadContent(\'csci5141/csci5141.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci5141</a><br>\n';
+		html += '<a href="csci5130/csci5130.html" onclick="loadContent(\'csci5130/csci5130.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci5130</a><br>\n';
+		html += '<a href="csci5112/csci5112.html" onclick="loadContent(\'csci5112/csci5112.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci5112</a><br>\n';
+		html += '<a href="csci5102/csci5102.html" onclick="loadContent(\'csci5102/csci5102.html\'); return false;" style="text-decoration:none"><img src="images/bookshut_brown.gif" border="0">&nbsp; csci5102</a><br>\n';
+		html += '<br>\n';
+		loadContent('courses_summary.html');
 	}
-	toc.document.writeln("</br>");
+	html += '<br>\n';
 
-
-
-
-
-
-	toc.document.writeln('<A HREF="#" onClick="parent.reDisplay(\'projects\')"><img name="imgP" src="images/projects.gif" onMouseOver="document.imgP.src=parent.imgProjects_g.src" onMouseOut="document.imgP.src=parent.imgProjects.src"  align=center border=0></A></br>');
+	html += '<a href="#" onclick="reDisplay(\'projects\'); return false;"><img src="images/projects.gif" onmouseover="this.src=imgProjects_g.src" onmouseout="this.src=imgProjects.src" align="center" border="0"></a><br>\n';
 	if (selection == "projects") {
-		parent.content.location.href="projects_summary.html"
+		loadContent('projects_summary.html');
 	}
-	toc.document.writeln("</br>");
+	html += '<br>\n';
 
-	toc.document.writeln('<A HREF="#" onClick="parent.reDisplay(\'resume\')"><img name="imgR" src="images/resume.gif" onMouseOver="document.imgR.src=parent.imgResume_g.src" onMouseOut="document.imgR.src=parent.imgResume.src"  align=center border=0></A></br>');
+	html += '<a href="#" onclick="reDisplay(\'resume\'); return false;"><img src="images/resume.gif" onmouseover="this.src=imgResume_g.src" onmouseout="this.src=imgResume.src" align="center" border="0"></a><br>\n';
 	if (selection == "resume") {
-	    toc.document.writeln('</br>');
-	    toc.document.writeln('</center>');
-		toc.document.writeln('&nbsp;&nbsp;<A HREF="resume/resume.html" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border=0>&nbsp; HTML</A></br>');
-		toc.document.writeln('&nbsp;&nbsp;<A HREF="resume/resume.doc" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border=0>&nbsp; Word</A></br>');
-		toc.document.writeln('&nbsp;&nbsp;<A HREF="resume/resume.txt" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border=0>&nbsp; Text</A></br>');
-	    toc.document.writeln('<center>');
-		parent.content.location.href="resume/resume_summary.html"
+		html += '<br></center>\n';
+		html += '&nbsp;&nbsp;<a href="resume/resume.html" onclick="loadContent(\'resume/resume.html\'); return false;" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; HTML</a><br>\n';
+		html += '&nbsp;&nbsp;<a href="resume/resume.doc" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; Word</a><br>\n';
+		html += '&nbsp;&nbsp;<a href="resume/resume.txt" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; Text</a><br>\n';
+		html += '<center>\n';
+		loadContent('resume/resume_summary.html');
 	}
-	toc.document.writeln("</br>");
+	html += '<br>\n';
 
-	toc.document.writeln('<A HREF="#" onClick="parent.reDisplay(\'photos\')"><img name="imgPh" src="images/photos.gif" onMouseOver="document.imgPh.src=parent.imgPhotos_g.src" onMouseOut="document.imgPh.src=parent.imgPhotos.src"  align=center border=0></A></br>');
+	html += '<a href="#" onclick="reDisplay(\'photos\'); return false;"><img src="images/photos.gif" onmouseover="this.src=imgPhotos_g.src" onmouseout="this.src=imgPhotos.src" align="center" border="0"></a><br>\n';
 	if (selection == "photos") {
-		parent.content.location.href="photos/photos.html"
+		loadContent('photos/photos.html');
 	}
-	toc.document.writeln("</br>");
+	html += '<br>\n';
 
-	toc.document.writeln('<A HREF="#" onClick="parent.reDisplay(\'donethat\')"><img name="imgDt" src="images/donethat.gif" onMouseOver="document.imgDt.src=parent.imgDoneThat_g.src" onMouseOut="document.imgDt.src=parent.imgDoneThat.src"  align=center border=0></A></br>');
+	html += '<a href="#" onclick="reDisplay(\'donethat\'); return false;"><img src="images/donethat.gif" onmouseover="this.src=imgDoneThat_g.src" onmouseout="this.src=imgDoneThat.src" align="center" border="0"></a><br>\n';
 	if (selection == "donethat") {
-		parent.content.location.href="donethat/donethat.html"
+		loadContent('donethat/donethat.html');
 	}
 
-	toc.document.writeln('</center>');
+	html += '</center>\n';
 
-	toc.document.writeln("</body>");
-	toc.document.close();
-	
+	document.getElementById('toc').innerHTML = html;
 }
