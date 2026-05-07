@@ -58,7 +58,6 @@ function reDisplay(selection, subSelection) {
 		html += '<br></center>\n';
 		html += '&nbsp;&nbsp;<a href="resume/resume.html" onclick="loadContent(\'resume/resume.html\'); return false;" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; HTML</a><br>\n';
 		html += '&nbsp;&nbsp;<a href="resume/resume.doc" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; Word</a><br>\n';
-		html += '&nbsp;&nbsp;<a href="resume/resume.txt" target="content" style="text-decoration:none"><img src="images/resume_bullet.gif" border="0">&nbsp; Text</a><br>\n';
 		html += '<center>\n';
 		loadContent('resume/resume_summary.html');
 	}
